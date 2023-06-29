@@ -13,7 +13,7 @@ public class CamundaTestClientApplication {
 		SpringApplication.run(CamundaTestClientApplication.class, args);
 
 
-		ZeebeClient client = ZeebeClient.newClientBuilder().gatewayAddress("127.0.0.1:26500").build();
+		/*ZeebeClient client = ZeebeClient.newClientBuilder().gatewayAddress("127.0.0.1:26500").build();
         System.out.println("Connected");
 		JobWorker jobWorker = client.newWorker().jobType("testServiceTask") //ssl handshake problem, https?
 		.handler((jobClient, job) -> {
@@ -22,7 +22,7 @@ public class CamundaTestClientApplication {
                     .send()
                     .join();
             })
-        .open();
+        .open();*/
 
 		//client.close();
 

@@ -29,9 +29,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>io.camunda</groupId>
-			<artifactId>zeebe-client-java</artifactId>
-			<version>8.2.3</version>
+			<groupId>io.camunda.spring</groupId>
+			<artifactId>spring-boot-starter-camunda</artifactId>
+			<version>8.2.2</version>
 		</dependency>
 	</dependencies>
 
